@@ -44,9 +44,6 @@ func get(n int) string { //функция для числа до 1е6 выдае
 }
 
 func main() {
-	a := 192812
-	fmt.Println(a, " = ", get(a))
-	return
 	fmt.Println("Введите целое число: ")
 	var n int
 	flag := false
